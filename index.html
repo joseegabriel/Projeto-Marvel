@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./src/style.css">
+
+    <script src="./src/main.js"></script>
+
+    <title>Vendedores</title>
+
+</head>
+
+<body>
+    
+    <section class="container-fluid bg-dark">
+        <div class="container bg-dark">
+    
+        <nav class="navbar navbar-expand-md bg-dark">
+    
+              <a class="navbar-brand" href="index.html"><img src="./img/logo-icons/logo.png" width="100" height="100"/></a>
+    
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="./src/quem-somos.html" target="_blank">Quem Somos?</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nossos Produtos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item text-black" href="#Camisas">Camisas</a></li>
+                      <li><a class="dropdown-item text-black" href="#Artigos">Artigos</a></li>
+                    </ul>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="./src/contato.html" target="_blank">Contato</a>
+                    </li>
+                  </li>
+                </ul>
+                <form class="d-flex" role="usuario">
+                  <input class="form-control me-2" type="usuario" placeholder="Pesquise Aqui!" aria-label="Usuário">
+                  <button class="btn btn-outline-light" type="submit">Procurar</button>
+                </form>
+              </div>
+              <li class="card-icon">
+                <img src="../img/logo-icons/carrinho.png">
+              </li>
+            </nav>
+          </section>
+
+    <div class="apresentation my-5">
+        <h1 class="text-center fw-bold display-1 mb-5"> <span class="text-light">Heróis da Marvel</span></h1>
+        <div class="row">
+            <div class="col-12 m-auto">
+                <div class="owl-carousel owl-theme">
+                    <div class="item mb-4">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/ant-man.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Homem-Formiga</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/black-panther.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Pantera Negra</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/capita-marvel.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Capitã Marvel</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/capitao-america.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Capitão América</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/doctor-strange.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Doutor Estranho</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/hawkeye.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Gavião Arqueiro</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/hulk.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Hulk</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/ironman.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Homem de Ferro</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/loki.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Loki</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/moon.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Cavaleiro da Lua</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/scarlet.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Feiticeira Escarlate</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/spider.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Homem-Aranha</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/vision.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Visão</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/viuva.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Viúva Negra</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card border-0 shadow">
+                            <img src="./img/heros/thor.jpg" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <div class="card-title text-center">
+                                    <h4>Thor</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <img class="logo-vitrine" id="Camisas" src="./img/logo-icons/logo-camiseta.png"  alt="">
+    <div class="vitrine">
+        <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Marvel</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 50,00</h3>
+              <p> 5x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img1.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Marvel</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 50,00</h3>
+              <p> 5x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img3.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Pantera Negra</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 60,00</h3>
+              <p> 6x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img4.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Wakanda Forever</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 60,00</h3>
+              <p> 6x de R$ 10,00</p>         
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img5.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Doutor Estranho</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 60,00</h3>
+              <p> 6x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img6.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Thor</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 60,00</h3>
+              <p> 6x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img7.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Capitão América</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 60,00</h3>
+              <p> 6x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img8.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Homem Aranha</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 60,00</h3>
+              <p> 6x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img9.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Stranger</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 60,00</h3>
+              <p> 6x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img10.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Spider Man</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 60,00</h3>
+              <p> 6x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img11.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Herois</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 60,00</h3>
+              <p> 6x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img12.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Thor Trovão</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 60,00</h3>
+              <p> 6x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img13.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Feiticeira Scarlett</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 40,00</h3>
+              <p> 4x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img14.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Spider</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 60,00</h3>
+              <p> 6x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img15.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camiseta Aranha</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 60,00</h3>
+              <p> 6x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="./img/vitrine/img16.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cropped Marvel Comics</h5>
+              <p class="card-text">Tamanhos: P, M, G, GG</p>
+              <h3>R$ 30,00</h3>
+              <p> 3x de R$ 10,00</p>
+              <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+            </div>
+          </div>
+    
+        </div>
+
+        <img class="logo-artigos" id="Artigos" src="./img/logo-icons/logo-artigos.png"  alt="">
+        <div class="artigos">
+            <div class="card" style="width: 18rem;">
+                <img src="./img/vitrine/imga.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chinelo Marvel</h5>
+                  <p class="card-text">Tamanhos: P, M, G, GG</p>
+                  <h3>R$ 30,00</h3>
+                  <p> 3x de R$ 10,00</p>
+                  <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/vitrine/imga1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Boné Homem Aranha</h5>
+                  <p class="card-text">Tamanhos: P, M, G, GG</p>
+                  <h3>R$ 30,00</h3>
+                  <p> 3x de R$ 10,00</p>
+                  <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/vitrine/imga2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chinelo Homem Aranha</h5>
+                  <p class="card-text">Tamanhos: P, M, G, GG</p>
+                  <h3>R$ 30,00</h3>
+                  <p> 3x de R$ 10,00</p>
+                  <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/vitrine/imga3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Necessere Marvel</h5>
+                  <p class="card-text">Tamanhos: P, M, G, GG</p>
+                  <h3>R$ 60,00</h3>
+                  <p> 6x de R$ 10,00</p>
+                  <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/vitrine/imga4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Almofada Marvel</h5>
+                  <p class="card-text">Tamanhos: P, M, G, GG</p>
+                  <h3>R$ 60,00</h3>
+                  <p> 6x de R$ 10,00</p>         
+                  <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/vitrine/imga5.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Boné Avengens</h5>
+                  <p class="card-text">Tamanhos: P, M, G, GG</p>
+                  <h3>R$ 30,00</h3>
+                  <p> 3x de R$ 10,00</p>
+                  <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/vitrine/imga6.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Meias Thor, Iron, Cap</h5>
+                  <p class="card-text">Tamanhos: P, M, G, GG</p>
+                  <h3>R$ 40,00</h3>
+                  <p> 4x de R$ 10,00</p>
+                  <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/vitrine/imga7.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Meia Pantera Negra</h5>
+                  <p class="card-text">Tamanhos: P, M, G, GG</p>
+                  <h3>R$ 15,00</h3>
+                  <p> 3x de R$ 5,00</p>
+                  <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/vitrine/imga8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Meia Iron Man</h5>
+                  <p class="card-text">Tamanhos: P, M, G, GG</p>
+                  <h3>R$ 15,00</h3>
+                  <p> 3x de R$ 3,00</p>
+                  <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/vitrine/imga9.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Meia Spider</h5>
+                  <p class="card-text">Tamanhos: P, M, G, GG</p>
+                  <h3>R$ 15,00</h3>
+                  <p> 3x de R$ 5,00</p>
+                  <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/vitrine/imga10.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pantufa Marvel</h5>
+                  <p class="card-text">Tamanhos: P, M, G, GG</p>
+                  <h3>R$ 50,00</h3>
+                  <p> 5x de R$ 10,00</p>
+                  <a onclick="alertAddCart()" class="btn btn-dark bg-dark">Adicionar ao Carrinho</a>
+                </div>
+              </div>
+            </div>
+           <div id="containercontato">
+            <div class="mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2598.871203025321!2d-43.5611923045788!3d-22.900129364596793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be15839e68c4f%3A0x588a284ae162bc38!2sSenac%20Campo%20Grande!5e0!3m2!1spt-BR!2sbr!4v1665073799413!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+            <div id="formulario">
+              <fieldset>
+                <form name="formulario" onsubmit="return validar(this);" action="enviar.php" method="post">
+                  <input type="hidden" name="destino" value="#"/>
+                  <input type="hidden" name="enviado" value="#"/>
+                  <h3 class="text-light">&nbsp;Faça seu registro e receba promoções exclusivas!</h3>
+                    <p class="text-light" style="font-size:18px;">Nome:<br/>
+                  <input name="nome" type="text" size="55" class="txtarea" placeholder="Nome Completo"/></p>
+                    <p class="text-light" style="font-size:18px;">E-mail:<br />
+                  <input type="text" name="email" size="55" class="txtarea" placeholder="E-mail"/></p>
+                    <p class="text-light" style="font-size:18px;">Telefone:<br />
+                  <input type="text" name="number" size="55" class="txtarea" placeholder="Telefone"/></p>
+                    <p class="text-light" style="font-size:18px;">Mensagem:</br></p>
+                  <textarea name="mensagem" cols="36" rows="10" wrap="virtual" class="txtarea" placeholder="Deixe sua mensagem aqui!" ></textarea>
+                  <input type="checkbox" name="checkbox" value="op1"> <span class="text-light"> Desejo receber e-mails e mensagens com promoções.</span>
+                  <p>
+                  <input type="submit" value="Enviar" style="height:25px; width:60px; font-size:16px;"> </p>
+              </form>
+              </fieldset>
+            </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 15,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+</body>
+</html>

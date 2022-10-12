@@ -1,0 +1,187 @@
+
+.card-icon img {
+    display: flex;
+    padding-left: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+img {
+    height: 350px;
+}
+
+h1 {
+    background-image: radial-gradient(red, black);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 100px;
+    letter-spacing: 5px;
+}
+
+body {
+    background-color: red;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand img {
+    width: 150px;
+    height: 80px;
+}
+
+.navbar-toggler {
+    border: 1px solid white;
+}
+
+.navbar-toggler-icon {
+    display: flex;
+    color: white;
+    margin-right: 100px;
+}
+
+.apresentation {
+    background-image: url(../img/background/index-background.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.vitrine {
+    display: flex;
+}
+
+.vitrine {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url(https://i.pinimg.com/736x/21/d1/24/21d124c39bf165e9cf8f60db9c340164.jpg);
+}
+
+.logo-vitrine {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.artigos {
+    display: flex;
+}
+
+.artigos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: url(https://i.pinimg.com/736x/21/d1/24/21d124c39bf165e9cf8f60db9c340164.jpg);
+}
+
+.logo-artigos {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    padding-bottom: 30px;
+    margin-top: 40px;
+}
+
+.btn{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+}
+
+.card{
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.my-5 {
+    margin: 0% !important;
+}
+
+.foot {
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mapa {
+    margin: 2% 0% 2% 5%;
+    border: 2px solid black;
+}
+.mapa iframe {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.form-pag {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.pag-text { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.background-footer { 
+    background-image: radial-gradient(red, black);
+}
+
+.card-icon {
+    padding-bottom: 30px;
+}
+
+#formulario {
+    margin: auto;
+    margin-top:10px;
+    width:50%;
+    border: 1px solid white;
+    padding: 5px;
+      }
+      
+ #containercontato {
+   display: flex;
+   background-image: radial-gradient(red, black)
+ }
+
+      .txtarea {
+      width: 100%;
+      height: 25px;
+      margin-bottom:5px;
+      }
+ 
+    #boxmapacontato{
+
+    width:50%;
+    height:auto;
+    margin:auto;
+    position:relative;
+  margin-top:30px;
+  padding-bottom:20px;	   	
+}
+
+.back p {
+    padding: 2%;
+    border: 1px solid white;
+}
+
+.owl-carousel.owl-loaded {
+    padding-top: 100px;
+}
